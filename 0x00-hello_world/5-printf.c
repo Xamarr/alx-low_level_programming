@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - should print a text
  *
- * Return: should be 0 (means its sucessful)
+ * Description: while making use of main
+ * Return: 0 (means its sucessful)
  */
 int main(void)
 {
