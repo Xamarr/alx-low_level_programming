@@ -1,17 +1,15 @@
 #include <unistd.h>
-#include <stdio.h>
 
 /**
  * main - prints an output
  *
- * Return: should be 1 (to enure sucess)
+ * Return: 1 (to enure sucess)
  */
 
 int main(void)
 {
 
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n, 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n" , 59);
 	
-	return (1);
-		
+	return (1);	
 }
