@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the alphabet 
+ * main - prints the alphabet
  *
  * Description: using the main fumction
  * this program prints the alphabets
@@ -15,5 +15,5 @@ int main(void)
 		putchar(ch);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
