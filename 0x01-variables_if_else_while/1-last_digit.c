@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- *
- * main - prints a number behind our result
+ *main - prints if the number is pos or neg
  *
  * Description: using main fxn
  * prog prints the positive of number
