@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints integers 0-9
+ * main - Prints integers 
  *
  * Description: main fxn prints single integers
  * with new lines
- * Return: 0
+ * Return: 0 (sucessful)
  */
 
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
 		putchar(n);
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
