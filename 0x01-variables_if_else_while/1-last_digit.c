@@ -4,30 +4,31 @@
 
 /**
  *
- * main - cats a number behind our result
- *
- * Return: should be sucessful
+ * main - prints a number behind our result
+ *Description: this program prints our numbers positivity 
+ * Return: 0
  */
 int main(void)
 {
 	int n;
-	char last_digit[]= "Last digit of";
-
+	int l;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%s %d is %d and is ", last_digit, n, n % 7);
-	if (n % 7 > 5)
+	l = n % 10
+
+	printf("%s %d is %d and is", last_digit, n, l);
+	if (l > 5)
 	{
-		printf("greater than 5\n");
+		printf(" greater than 5\n");
 	}
-	else if (n % 7 == 0)
+	else if (l == 0)
 	{
-		printf("0\n");
+		printf(" 0\n");
 	}
-	else (n % 7 < 5)
+	else 
 	{
-		printf("less than 6 and not 0\n");
+		printf(" less than 6 and not 0\n");
 	}
 	return (0);
-
 }
