@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints integers 
+ * main - Prints integers
  *
  * Description: main fxn prints single integers
  * with new lines
