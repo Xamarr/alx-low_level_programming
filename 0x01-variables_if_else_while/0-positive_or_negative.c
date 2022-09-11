@@ -6,11 +6,12 @@
  * main - prints if a number is zero, negatiive or positive
  *
  * Description: this program describes the random number
- * Result: should be sucessful
+ * Return:0 should be sucessful
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* yourcode goes here */
