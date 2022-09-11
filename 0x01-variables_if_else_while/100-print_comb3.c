@@ -2,17 +2,17 @@
 /**
  * main- print a combo of digits
  *
- * Result: 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
 {
-	int i;
-	int j;
+	int i,j;
 
-	for (i = 0 ; i <= 9 ; i++)
+
+	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0 ; i <= 9 ; j++)
+		for (j = 1 ; i <= 9 ; j++)
 		{
 			if (j > i)
 			{
