@@ -10,6 +10,8 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
+		for (p = 0; p < 100; p++)
+	{
 		if (p > i)
 		{
 			putchar((i / 10) + '0');
@@ -25,6 +27,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
+	}
 	}
 	putchar('\n');
 	return (0);
